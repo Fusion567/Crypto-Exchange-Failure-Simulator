@@ -1,0 +1,2 @@
+src/App.tsx(3,10): error TS1484: 'OrderBook' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/App.tsx(3,21): error TS1484: 'SimulationStatus' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
