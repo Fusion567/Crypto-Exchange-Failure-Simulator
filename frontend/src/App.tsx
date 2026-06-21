@@ -25,7 +25,9 @@ import {
 import type { OrderBook, SimulationStatus } from './types';
 import './App.css';
 
-const API_BASE = 'http://localhost:8000';
+const API_BASE = import.meta.env.DEV 
+  ? "http://localhost:8000" 
+  : "/_/backend";
 
 const ZONES = [
   {
